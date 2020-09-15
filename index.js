@@ -52,5 +52,5 @@ function iLoveTheBeatles(number) {
     iLoveTheBeatles();
     i++;
   } while (i <= number && number > 15);
-  return arr;
+  return newArr;
 }
