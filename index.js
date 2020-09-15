@@ -51,6 +51,6 @@ function iLoveTheBeatles(number) {
   do {
     iLoveTheBeatles();
     i++;
-  } while (i <= number && number > 15);
+  } while (i < number && number > 15);
   return newArr;
 }
