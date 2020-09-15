@@ -53,8 +53,6 @@ function iLoveTheBeatles(number) {
   } while (number < 15);
 
   if (number > 15) {
-    iLoveTheBeatles();
+    return iLoveTheBeatles();
   }
-  
-  return newArr;
 }
