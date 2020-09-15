@@ -49,7 +49,7 @@ function iLoveTheBeatles(number) {
   do {
     iLoveTheBeatles();
     number++;
-  } while (number < 15);
+  } while (number <= 15);
   if (number > 15){
     iLoveTheBeatles();
   }
