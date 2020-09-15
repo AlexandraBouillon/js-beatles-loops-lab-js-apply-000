@@ -45,7 +45,7 @@ function johnLennonFacts(facts){
 // * Return the array with the strings `"I love the Beatles!"`.
 function iLoveTheBeatles(number) {
   let newArr  = [];
-  let iLoveTheBeatles = () => newArr.push("I love the Beatles!");
+  let iLoveTheBeatles = () => newArr.push("I love the Beatles!"); // helperFunction that adds strings to newArr
   let i = 0;
 
   do {
