@@ -46,13 +46,11 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles(number) {
   let newArr  = [];
   let iLoveTheBeatles = () => newArr.push("I love the Beatles!");
+  let i = 0;
 
   do {
     iLoveTheBeatles();
-    number++;
-  } while (number < 15);
-
-  if (number > 15) {
-    return iLoveTheBeatles();
-  }
+    i++;
+  } while (i <= number && number > 15);
+  return arr;
 }
