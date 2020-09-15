@@ -44,17 +44,14 @@ function johnLennonFacts(facts){
 //   difference between the input number and `15`.
 // * Return the array with the strings `"I love the Beatles!"`.
 function iLoveTheBeatles(number) {
-  let arr = [];
-  let loveTheBeatles = arr.push("I love the Beatles!");
-
+  let newArr  = [];
+  let iLoveTheBeatles = () => newArr.push(" I love the Beatles!");
   do {
-    loveTheBeatles;
-    return arr;
-  } while (number >= 15);
-
-  if (number <= 15) {
-    arr.push(loveTheBeatles);
+    iLoveTheBeatles();
+    number++;
+  } while (number < 15);
+  if (number > 15){
+    iLoveTheBeatles();
   }
-  console.log(arr);
-  return arr;
+  return newArr;
 }
