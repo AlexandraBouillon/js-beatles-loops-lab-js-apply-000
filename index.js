@@ -54,3 +54,6 @@ function iLoveTheBeatles(number) {
   } while (i < number && number > 15);
   return newArr;
 }
+
+console.log(iLoveThebeatles(7));
+console.log(iLoveTheBeatles(17));
